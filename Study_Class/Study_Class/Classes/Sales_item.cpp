@@ -15,6 +15,17 @@ Sales_item::Sales_item(void)
 	revenue = 0.0;
 }
 
+Sales_item::Sales_item(const std::string& str)
+{
+	isbn = str;
+}
+
+Sales_item::Sales_item(std::istream&)
+{
+	std::cout<<"Please enter the ISBN :"<<std::endl;
+	std::cin>>isbn;
+}
+
 double Sales_item::avg_price(void) const
 {
 	if (units_sold)
@@ -30,4 +41,14 @@ double Sales_item::avg_price(void) const
 bool Sales_item::same_isbn(const Sales_item &rhs) const
 {
 	return (isbn == rhs.isbn);
+}
+
+void Sales_item::Print_Information(void)
+{
+	std::cout<<"ISBN = "<<isbn<<std::endl;
+	std::cout<<"Revenue = "<<revenue<<std::endl;
+	std::cout<<"There have been "<<units_sold<<" books sold."<<std::endl;
+	
+	std::cout<<"\n"<<std::endl;
+	return;
 }
