@@ -11,15 +11,17 @@
 #define SCREEN_H
 
 	#include <string>
+	#include <iostream>
 
 	class Screen
 	{
 	public:
-		/* interface member function
+		typedef std::string::size_type index;
+	
+		/* Constructor overload
 		 */
 		Screen(void);
-
-		typedef std::string::size_type index;
+		Screen(index row, index col);
 		
 		/* Member function overload
 		 */
@@ -49,6 +51,11 @@
 		Screen& set(char);
 		Screen& set(index, index, char);
 		
+		/* display overloaded on whether the object is const or not
+		 */
+		Screen& display(std::ostream &os);
+		const Screen& display(std::ostream &os) const;
+		
 	private:
 		std::string contents;		
 		#if 0
@@ -60,6 +67,15 @@
 			index height;
 			index width;
 		#endif
+		/* Changable data member
+		 * It may be changed even in a const member.
+		 */
+		mutable size_t access_ctr;
+		
+		/* single function to do the work of displaying a screen,
+		 * will be called by the 2 display operations.
+		 */
+		void do_display(std::ostream &os) const;
 	};
 
 

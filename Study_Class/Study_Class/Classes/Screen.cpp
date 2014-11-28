@@ -17,6 +17,12 @@ Screen::Screen(void)
 	width = 0;
 }
 
+Screen::Screen(index row, index col)
+{
+	height = row;
+	width = col;
+}
+
 /*
 char Screen::get(index r, index c) const
 {
@@ -45,6 +51,34 @@ Screen& Screen::set(char c)
 Screen& Screen::move(index r, index c)
 {
 	index row = r*width;
-	cursor = row +c;
+	cursor = row + c;
 	return *this;
 }
+
+
+void Screen::do_display(std::ostream &os) const
+{
+	++access_ctr;		// Kepp count of calls to any member function.
+	os << contents;
+}
+
+Screen& Screen::display(std::ostream &os)
+{
+	do_display(os);
+	return *this;
+}
+
+const Screen& Screen::display(std::ostream &os) const
+{
+	do_display(os);
+	return *this;
+}
+
+
+
+
+
+
+/*
+ * END OF FILE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ */
