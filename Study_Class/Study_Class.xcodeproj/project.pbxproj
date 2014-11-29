@@ -14,6 +14,7 @@
 		7F71A92C1A288C4B007DF630 /* Class_Objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71A92A1A288C4B007DF630 /* Class_Objects.cpp */; };
 		7F735AFA1A27964D0014E199 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F735AF81A27964D0014E199 /* Screen.cpp */; };
 		7F735AFD1A27968F0014E199 /* Test_Classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F735AFB1A27968F0014E199 /* Test_Classes.cpp */; };
+		7FE8F42C1A28F4C8003BFECF /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7FE8F42B1A28F4C8003BFECF /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		7F735AF91A27964D0014E199 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Screen.h; path = Classes/Screen.h; sourceTree = "<group>"; };
 		7F735AFB1A27968F0014E199 /* Test_Classes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Test_Classes.cpp; path = Classes/Test_Classes.cpp; sourceTree = "<group>"; };
 		7F735AFC1A27968F0014E199 /* Test_Classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test_Classes.h; path = Classes/Test_Classes.h; sourceTree = "<group>"; };
+		7FE8F42B1A28F4C8003BFECF /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		7F3100F91A27943100328052 /* Study_Class */ = {
 			isa = PBXGroup;
 			children = (
+				7FE8F42B1A28F4C8003BFECF /* Makefile */,
 				7F3101041A2794DF00328052 /* Classes */,
 				7F3100FA1A27943100328052 /* Study_Class_Main.cpp */,
 				7F3101011A27948700328052 /* Test.cpp */,
@@ -162,6 +165,7 @@
 				7F3101031A27948700328052 /* Test.cpp in Sources */,
 				7F71A9291A27BDE9007DF630 /* Record.cpp in Sources */,
 				7F71A92C1A288C4B007DF630 /* Class_Objects.cpp in Sources */,
+				7FE8F42C1A28F4C8003BFECF /* Makefile in Sources */,
 				7F3101071A27951600328052 /* Sales_item.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
