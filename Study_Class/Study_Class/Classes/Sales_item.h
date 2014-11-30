@@ -19,8 +19,9 @@
 		/* Default constructor needed to initialize members of build-in type
 		 */
 		Sales_item(void);
-		Sales_item(const std::string&);
+		Sales_item(const std::string& book) : isbn(book), units_sold(0), revenue(0.0) {}
 		Sales_item(std::istream&);
+		// Sales_item() const;		// error.  const is not allowed on a constructor.
 		
 		/* Operations on Sales_item objects
 		 */
@@ -33,5 +34,7 @@
 		unsigned int units_sold;
 		double revenue;
 	};
+
+/*============================================================================*/
 
 #endif	/*  SALES_ITEM_H  */
