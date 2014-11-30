@@ -10,6 +10,7 @@
 		7F3100FB1A27943100328052 /* Study_Class_Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F3100FA1A27943100328052 /* Study_Class_Main.cpp */; };
 		7F3101031A27948700328052 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F3101011A27948700328052 /* Test.cpp */; };
 		7F3101071A27951600328052 /* Sales_item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F3101051A27951600328052 /* Sales_item.cpp */; };
+		7F45B6521A2B9BD4006A6D82 /* ConstRef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F45B6511A2B9BD4006A6D82 /* ConstRef.cpp */; };
 		7F71A9291A27BDE9007DF630 /* Record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71A9271A27BDE9007DF630 /* Record.cpp */; };
 		7F71A92C1A288C4B007DF630 /* Class_Objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71A92A1A288C4B007DF630 /* Class_Objects.cpp */; };
 		7F735AFA1A27964D0014E199 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F735AF81A27964D0014E199 /* Screen.cpp */; };
@@ -36,6 +37,8 @@
 		7F3101021A27948700328052 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		7F3101051A27951600328052 /* Sales_item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sales_item.cpp; path = Classes/Sales_item.cpp; sourceTree = "<group>"; };
 		7F3101061A27951600328052 /* Sales_item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sales_item.h; path = Classes/Sales_item.h; sourceTree = "<group>"; };
+		7F45B6501A2B9BBD006A6D82 /* ConstRef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ConstRef.h; path = Classes/ConstRef.h; sourceTree = "<group>"; };
+		7F45B6511A2B9BD4006A6D82 /* ConstRef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConstRef.cpp; path = Classes/ConstRef.cpp; sourceTree = "<group>"; };
 		7F71A9271A27BDE9007DF630 /* Record.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Record.cpp; path = Classes/Record.cpp; sourceTree = "<group>"; };
 		7F71A9281A27BDE9007DF630 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Record.h; path = Classes/Record.h; sourceTree = "<group>"; };
 		7F71A92A1A288C4B007DF630 /* Class_Objects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Class_Objects.cpp; path = Classes/Class_Objects.cpp; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 				7F71A9281A27BDE9007DF630 /* Record.h */,
 				7F71A92A1A288C4B007DF630 /* Class_Objects.cpp */,
 				7F71A92B1A288C4B007DF630 /* Class_Objects.h */,
+				7F45B6501A2B9BBD006A6D82 /* ConstRef.h */,
+				7F45B6511A2B9BD4006A6D82 /* ConstRef.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				7F71A92C1A288C4B007DF630 /* Class_Objects.cpp in Sources */,
 				7FE8F42C1A28F4C8003BFECF /* Makefile in Sources */,
 				7F3101071A27951600328052 /* Sales_item.cpp in Sources */,
+				7F45B6521A2B9BD4006A6D82 /* ConstRef.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
