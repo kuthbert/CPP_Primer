@@ -2,6 +2,11 @@
 *.o
 *.xcuserstate
 *.inc
+*.htm
+*.idb
+*.manifest
+*.dep
+
 
 # Compiled Object files
 *.slo
