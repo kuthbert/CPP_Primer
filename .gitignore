@@ -1,6 +1,10 @@
 # The below types of files will be ignored by git tracking
 *.o
 *.xcuserstate
+*.d
+*.inc
+*private.xml
+*.project
 
 # Compiled Object files
 *.slo
