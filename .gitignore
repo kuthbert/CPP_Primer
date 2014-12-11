@@ -6,7 +6,7 @@
 *.idb
 *.manifest
 *.dep
-
+*.d
 
 # Compiled Object files
 *.slo
