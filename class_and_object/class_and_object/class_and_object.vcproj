@@ -186,6 +186,34 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
+		<Filter
+			Name="classes"
+			>
+			<File
+				RelativePath=".\classes\Date.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\classes\Date.h"
+				>
+			</File>
+			<File
+				RelativePath=".\classes\Test_Date.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\classes\Test_Date.h"
+				>
+			</File>
+			<File
+				RelativePath=".\classes\TestCases4classes.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\classes\TestCases4classes.h"
+				>
+			</File>
+		</Filter>
 	</Files>
 	<Globals>
 	</Globals>

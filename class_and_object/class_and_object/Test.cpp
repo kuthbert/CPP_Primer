@@ -9,7 +9,16 @@
 
 
 #include "Test.h"
+#include "classes/TestCases4classes.h"
 
 void Perform_General_Test_Cases(void)
 {
+	Perform_TestCase4_Use_PrivateDataMember();
+}
+
+
+void Perform_TestCase4_Use_PrivateDataMember(void)
+{
+	TestCase4_Use_PrivateDataMember();
+	return;
 }
