@@ -13,11 +13,13 @@
 
 #include <iostream>
 
+#include "Test.h"
+
 using namespace std;
 
 int main(int argc, char *argv[])
 {
-
+	Perform_General_Test_Cases();
 /******************************/
 	cout<<endl;
 	return 0;

@@ -165,12 +165,20 @@
 				RelativePath=".\Main.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\Test.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="&#22836;&#25991;&#20214;"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\Test.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="&#36164;&#28304;&#25991;&#20214;"
