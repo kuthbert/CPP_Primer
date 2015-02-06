@@ -21,14 +21,16 @@ Date::~Date(void)
 {
 	// To do
 }
-
-int Date::getyear(void)
-/* 取值成員函數
- * getter
- */
-{
-	return yr;
-}
+	
+#if !defined (GETTER_CONST)
+	int getyear(void)
+	/* 取值成員函數
+	 * getter
+	 */
+	{
+		return yr;
+	}
+#endif
 
 void Date::setyear(int y)
 /* 賦值成員函數
