@@ -13,7 +13,7 @@
 
 	void Perform_General_Test_Cases(void);
 
-	void Perform_TestCase4_Use_PrivateDataMember(void);
+	void Perform_TestCase4_ConversionFunc(void);
 
 
 #endif	/*  TEST_H  */

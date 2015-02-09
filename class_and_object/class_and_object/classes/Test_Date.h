@@ -13,4 +13,6 @@
 
 	void Use_PrivateDataMember(void);
 
+	void Conversion_PrivateDataMember(void);
+
 #endif /*  TEST_DATE_H  */

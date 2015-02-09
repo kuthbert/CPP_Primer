@@ -40,3 +40,16 @@ void Use_PrivateDataMember(void)
 
 	return;
 }
+
+void Conversion_PrivateDataMember(void)
+{
+	Date dt(2012, 11, 17);
+	CustomDate cd;
+
+	/* Convert Date to CustomDate via assignment
+	 */
+	cd = dt;
+	cd.display();
+
+	return;
+}

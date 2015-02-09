@@ -13,12 +13,13 @@
 
 void Perform_General_Test_Cases(void)
 {
-	Perform_TestCase4_Use_PrivateDataMember();
+	Perform_TestCase4_ConversionFunc();
+	return;
 }
 
 
-void Perform_TestCase4_Use_PrivateDataMember(void)
+void Perform_TestCase4_ConversionFunc(void)
 {
-	TestCase4_Use_PrivateDataMember();
+	TestCase4_ConversionFunc();
 	return;
 }

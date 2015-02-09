@@ -14,3 +14,15 @@ void TestCase4_Use_PrivateDataMember(void)
 {
 	Use_PrivateDataMember();
 }
+
+void TestCase4_Conversion_PrivateDataMember(void)
+{
+	Conversion_PrivateDataMember();
+	return;
+}
+
+void TestCase4_ConversionFunc(void)
+{
+	TestCase4_Use_PrivateDataMember();
+	TestCase4_Conversion_PrivateDataMember();
+}

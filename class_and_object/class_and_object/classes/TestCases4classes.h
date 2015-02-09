@@ -11,5 +11,8 @@
 #define TEST_CASES_4_CLASSES_H
 
 	void TestCase4_Use_PrivateDataMember(void);
+	void TestCase4_Conversion_PrivateDataMember(void);
+
+	void TestCase4_ConversionFunc(void);
 
 #endif	/*  TEST_CASES_4_CLASSES_H  */
