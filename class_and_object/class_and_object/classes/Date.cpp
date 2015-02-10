@@ -9,6 +9,7 @@
 
 
 #include "Date.h"
+#include <iostream>
 
 static int iDaysOfEachMonth[] = {31,	// Jan.
 								 28,	// Feb.
@@ -64,6 +65,12 @@ void Date::setyear(int y)
  */
 {
 	yr = y;
+}
+
+void Date::display(void) const
+{
+	std::cout<<yr<<"/"<<mo<<"/"<<da<<std::endl;
+	return;
 }
 
 Date::operator CustomDate(void) const

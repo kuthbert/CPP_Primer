@@ -9,6 +9,7 @@
 
 #include "TestCases4classes.h"
 #include "Test_Date.h"
+#include "Test_CustomDate.h"
 
 void TestCase4_Use_PrivateDataMember(void)
 {
