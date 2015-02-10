@@ -40,4 +40,5 @@ int CustomDate::getday(void) const
 void CustomDate::setday(int d)
 {
 	da = d;
+	return;
 }

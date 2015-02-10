@@ -206,6 +206,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\classes\Test_CustomDate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\classes\Test_CustomDate.h"
+				>
+			</File>
+			<File
 				RelativePath=".\classes\Test_Date.cpp"
 				>
 			</File>
