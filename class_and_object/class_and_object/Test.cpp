@@ -9,7 +9,17 @@
 
 
 #include "Test.h"
+#include "classes/TestCases4classes.h"
 
 void Perform_General_Test_Cases(void)
 {
+	Perform_TestCase4_ConversionFunc();
+	return;
+}
+
+
+void Perform_TestCase4_ConversionFunc(void)
+{
+	TestCase4_ConversionFunc();
+	return;
 }

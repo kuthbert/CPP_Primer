@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="class_and_object"
-	ProjectGUID="{1EA6355E-8000-4F35-8773-C9A2295BDC30}"
-	RootNamespace="class_and_object"
+	Name="Test_friend_accessibility"
+	ProjectGUID="{D527DB2C-555C-4D9C-B00D-110990CECFDE}"
+	RootNamespace="Test_friend_accessibility"
 	TargetFrameworkVersion="196613"
 	>
 	<Platforms>
@@ -162,11 +162,43 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\Circle.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CustomDate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Date.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\friend_bridge.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Main.cpp"
 				>
 			</File>
 			<File
+				RelativePath=".\Radius.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Screen.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Test.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Time.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Window.cpp"
 				>
 			</File>
 		</Filter>
@@ -176,7 +208,39 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
+				RelativePath=".\Circle.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CustomDate.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Date.h"
+				>
+			</File>
+			<File
+				RelativePath=".\friend_bridge.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Radius.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Screen.h"
+				>
+			</File>
+			<File
 				RelativePath=".\Test.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Time.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Window.h"
 				>
 			</File>
 		</Filter>
@@ -185,42 +249,6 @@
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
-		</Filter>
-		<Filter
-			Name="classes"
-			>
-			<File
-				RelativePath=".\classes\CustomDate.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\classes\CustomDate.h"
-				>
-			</File>
-			<File
-				RelativePath=".\classes\Date.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\classes\Date.h"
-				>
-			</File>
-			<File
-				RelativePath=".\classes\Test_Date.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\classes\Test_Date.h"
-				>
-			</File>
-			<File
-				RelativePath=".\classes\TestCases4classes.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\classes\TestCases4classes.h"
-				>
-			</File>
 		</Filter>
 	</Files>
 	<Globals>
