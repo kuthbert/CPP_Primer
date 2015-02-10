@@ -24,6 +24,7 @@
 		int da;
 		int yr;
 	public:
+		Date(void);
 		Date(int y, int m, int d);
 		~Date(void);
 		/* 
@@ -38,7 +39,7 @@
 		 * A memmber function to set the year
 		 */
 		void setyear(int y);
-
+		void display(void) const;
 		operator CustomDate(void) const;
 	};
 
