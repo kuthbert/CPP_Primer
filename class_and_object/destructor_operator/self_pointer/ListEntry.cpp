@@ -11,13 +11,33 @@
 #include <cstring>
 #include <iostream>
 
+#if 1
+	/* 
+	 * Define the static pointers here:
+	 *
+	 * 在類中聲明的靜態成員並不能自動定義這個變量, 
+	 * 必須在類定義之外定義該成員.
+	 */
+	ListEntry* ListEntry::pHeadEntry;
+	ListEntry* ListEntry::pTailEntry;
+#endif
+
 
 ListEntry::ListEntry(char *str)
 {
+	if (pHeadEntry == NULL)
+	{
+		pHeadEntry = this;
+	}
+	if (pTailEntry != NULL)
+	{
+		pTailEntry->next_entry = this;
+	}
+	pTailEntry = this;
 	list_value = new char[std::strlen(str)+1];
 	std::strcpy(list_value, str);
-	prev_entry = NULL;
-};
+	next_entry = NULL;
+}
 
 
 ListEntry::~ListEntry(void)
@@ -26,11 +46,10 @@ ListEntry::~ListEntry(void)
 }
 
 
-ListEntry* ListEntry::PrevEntry(void) const
+ListEntry* ListEntry::NextEntry(void) const
 {
-	return prev_entry;
+	return next_entry;
 }
-
 
 void ListEntry::display(void) const
 {
@@ -41,34 +60,5 @@ void ListEntry::AddEntry(ListEntry& le)
 /* Use the "this" pointer to chain the list
  */
 {
-	le.prev_entry = this;
-}
-
-ListEntry& ListEntry::operator=(const ListEntry& src_assignor)
-{
-	if (this != &src_assignor)
-	{
-		delete [] list_value;
-		delete prev_entry;
-
-		if (src_assignor.list_value != 0)
-		{
-			list_value = new char[std::strlen(src_assignor.list_value)+1];
-			std::strcpy(list_value, src_assignor.list_value);
-		}
-		else
-		{
-			list_value = 0;
-		}
-		if (src_assignor.prev_entry != NULL)
-		{
-			// delete prev_entry;
-			prev_entry = src_assignor.prev_entry;
-		}
-		else
-		{
-			prev_entry = NULL;
-		}
-	}
-	return *this;
+	le.next_entry = this;
 }

@@ -13,15 +13,19 @@
 
 	class ListEntry
 	{
+	public:
+		/* Static list head pointer */
+		static ListEntry *pHeadEntry;
 	private:
+		/* Static list tail pointer */
+		static ListEntry *pTailEntry;
 		char *list_value;
-		ListEntry *prev_entry;
+		ListEntry *next_entry;
 	public:
 		ListEntry(char *);
 		~ListEntry(void);
-		ListEntry* PrevEntry(void) const;
+		ListEntry* NextEntry(void) const;
 		void display(void) const;
-		ListEntry& operator=(const ListEntry& src_assignor);
 
 		void AddEntry(ListEntry& le);
 	};
