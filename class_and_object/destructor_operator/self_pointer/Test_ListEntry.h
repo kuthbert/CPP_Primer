@@ -13,4 +13,6 @@
 
 	void TestCase4_UseThisPtr2AccessLinkListClass(void);
 
+	void TestCase4_StaticMemberAndChain(void);
+
 #endif	/*  TEST_LISTENTRY_H  */

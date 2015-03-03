@@ -21,4 +21,6 @@
 	void Perform_TestCase4_UseThisPtr2AccessLinkListClass(void);
 
 	void Perform_TestCase4_UseObjectsArray(void);
+
+	void Perform_TestCase4_StaticMemberAndChain(void);
 #endif	/*  TEST_H  */

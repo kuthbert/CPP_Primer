@@ -24,6 +24,8 @@ void Perform_General_TestCases(void)
 	// Perform_TestCase4_UseThisPtr2AccessLinkListClass();
 
 	Perform_TestCase4_UseObjectsArray();
+
+	Perform_TestCase4_StaticMemberAndChain();
 	return;
 }
 
@@ -57,4 +59,9 @@ void Perform_TestCase4_UseThisPtr2AccessLinkListClass(void)
 void Perform_TestCase4_UseObjectsArray(void)
 {
 	TestCase4_UseObjectsArray();
+}
+
+void Perform_TestCase4_StaticMemberAndChain(void)
+{
+	TestCase4_StaticMemberAndChain();
 }
