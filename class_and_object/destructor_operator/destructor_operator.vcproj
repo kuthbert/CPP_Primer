@@ -190,6 +190,14 @@
 			Name="destructor"
 			>
 			<File
+				RelativePath=".\destructor\AValue.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\AValue.h"
+				>
+			</File>
+			<File
 				RelativePath=".\destructor\Date.cpp"
 				>
 			</File>
@@ -198,11 +206,59 @@
 				>
 			</File>
 			<File
+				RelativePath=".\destructor\DateTime.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\DateTime.h"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Employee.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Employee.h"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Test_AValue.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Test_AValue.h"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Test_Date.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Test_Date.h"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Test_DateTime.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Test_DateTime.h"
+				>
+			</File>
+			<File
 				RelativePath=".\destructor\Test_destructor.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\destructor\Test_destructor.h"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Time.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\destructor\Time.h"
 				>
 			</File>
 		</Filter>
@@ -234,11 +290,27 @@
 				>
 			</File>
 			<File
+				RelativePath=".\operator_overload\Names.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\operator_overload\Names.h"
+				>
+			</File>
+			<File
 				RelativePath=".\operator_overload\Test_Complex.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\operator_overload\Test_Complex.h"
+				>
+			</File>
+			<File
+				RelativePath=".\operator_overload\Test_Names.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\operator_overload\Test_Names.h"
 				>
 			</File>
 			<File

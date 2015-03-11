@@ -17,4 +17,6 @@
 
 	void TestCase4_UseObjectsArray(void);
 
+	void TestCase4_NewConstructorDeleteDestructor(void);
+
 #endif	/*  TEST_DESTRUCTOR_H  */

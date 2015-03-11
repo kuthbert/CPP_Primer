@@ -23,4 +23,16 @@
 	void Perform_TestCase4_UseObjectsArray(void);
 
 	void Perform_TestCase4_StaticMemberAndChain(void);
+
+	void Perform_TestCase4_StaticMemberFunction(void);
+
+	void Perform_TestCase4_NewConstructorDeleteDestructor(void);
+
+	void Perform_TestCase4_NewDeleteOperatorsOverloadInsideClass(void);
+
+	void Perform_TestCase4_How2UseCopyConstructor(void);
+
+	void Perform_TestCase4_ClassReferenceCall(void);
+
+	void Perform_TestCase4_ModifyMutableDataMemberViaConstMemberFunc(void);
 #endif	/*  TEST_H  */
