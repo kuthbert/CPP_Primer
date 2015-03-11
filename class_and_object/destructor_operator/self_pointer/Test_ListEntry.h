@@ -15,4 +15,6 @@
 
 	void TestCase4_StaticMemberAndChain(void);
 
+	void TestCase4_StaticMemberFunction(void);
+
 #endif	/*  TEST_LISTENTRY_H  */
