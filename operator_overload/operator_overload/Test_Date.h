@@ -17,4 +17,6 @@
 
 	void TestCase4_OperatorPlusEqualOverload(void);
 
+	void TestCase4_OperatorPrefixPostfixPlusPlusOverload(void);
+
 #endif	/*  TEST_DATE_H  */

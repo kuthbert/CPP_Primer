@@ -14,5 +14,6 @@
 	void Perform_TestCase4_OperatorPlusOverload(void);
 	void Perform_TestCase4_OperatorLessthanOrEqualOverload(void);
 	void Perform_TestCase4_OperatorPlusEqualOverload(void);
+	void Perform_TestCase4_OperatorPrefixPostfixPlusPlusOverload(void);
 
 #endif	/*  OPERATOR_OVERLOAD_H  */

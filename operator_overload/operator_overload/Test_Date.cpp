@@ -71,3 +71,19 @@ void TestCase4_OperatorPlusEqualOverload(void)
 	return;
 #endif	/* OPERATOR_OVERLOAD_OUTSIDE_CLASS */
 }
+
+void TestCase4_OperatorPrefixPostfixPlusPlusOverload(void)
+{
+#if !defined (OPERATOR_OVERLOAD_OUTSIDE_CLASS)
+	Date oldDate(2012, 2, 14), 
+		 newDate(2015, 2, 14), 
+		 someoneDate;
+	someoneDate = (oldDate++);	// oldDate was changed, but someDate (namely oldDate++) NOT changed.
+	oldDate.display();			
+	someoneDate.display();		
+
+	someoneDate = (++newDate);	// newDate was changed, someoneDate (namely ++newDate) ALSO changed
+	someoneDate.display();
+	newDate.display();
+#endif	/* OPERATOR_OVERLOAD_OUTSIDE_CLASS */
+}

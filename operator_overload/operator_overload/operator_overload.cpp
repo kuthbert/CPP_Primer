@@ -28,3 +28,9 @@ void Perform_TestCase4_OperatorPlusEqualOverload(void)
 	TestCase4_OperatorPlusEqualOverload();
 	return;
 }
+
+void Perform_TestCase4_OperatorPrefixPostfixPlusPlusOverload(void)
+{
+	TestCase4_OperatorPrefixPostfixPlusPlusOverload();
+	return;
+}
