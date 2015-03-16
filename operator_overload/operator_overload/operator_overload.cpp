@@ -16,3 +16,15 @@ void Perform_TestCase4_OperatorPlusOverload(void)
 {
 	TestCase4_OperatorPlusOverload();
 }
+
+void Perform_TestCase4_OperatorLessthanOrEqualOverload(void)
+{
+	TestCase4_OperatorLessthanOrEqualOverload();
+	return;
+}
+
+void Perform_TestCase4_OperatorPlusEqualOverload(void)
+{
+	TestCase4_OperatorPlusEqualOverload();
+	return;
+}

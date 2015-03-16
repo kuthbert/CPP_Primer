@@ -10,6 +10,7 @@
 
 #include "Test_Date.h"
 #include "Date.h"
+#include <iostream>
 
 void TestCase4_OperatorPlusOverload(void)
 {
@@ -29,4 +30,44 @@ void TestCase4_OperatorPlusOverload(void)
 
 	oldDate.display();
 	return;
+}
+
+void TestCase4_OperatorLessthanOrEqualOverload(void)
+{
+#if !defined (OPERATOR_OVERLOAD_OUTSIDE_CLASS)
+	Date date1(1941, 12, 7), 
+		 date2(1990, 1, 22), 
+		 date3(1941, 12, 7);
+	if (date1 < date2)
+	{
+		date1.display();
+		std::cout<<" is less than ";
+		date2.display();
+	}
+	std::cout<<"\n"<<std::endl;
+	if (date1 == date3)
+	{
+		date1.display();
+		std::cout<<" is equal to ";
+		date3.display();
+	}
+	std::cout<<"\n"<<std::endl;
+	if (date1 <= date3)
+	{
+		date1.display();
+		std::cout<<"is less than or equal to ";
+		date3.display();
+	}
+	return;
+#endif	/* OPERATOR_OVERLOAD_OUTSIDE_CLASS */
+}
+
+void TestCase4_OperatorPlusEqualOverload(void)
+{
+#if !defined (OPERATOR_OVERLOAD_OUTSIDE_CLASS)
+	Date oldDate(1997, 2, 20);
+	oldDate += 21;
+	oldDate.display();
+	return;
+#endif	/* OPERATOR_OVERLOAD_OUTSIDE_CLASS */
 }

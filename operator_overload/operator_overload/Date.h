@@ -11,7 +11,7 @@
 #ifndef DATE_H
 #define DATE_H
 
-	#define OPERATOR_OVERLOAD_OUTSIDE_CLASS
+	// #define OPERATOR_OVERLOAD_OUTSIDE_CLASS
 
 	class Date
 	{
@@ -26,10 +26,14 @@
 		void display(void) const;
 
 		#if !defined (OPERATOR_OVERLOAD_OUTSIDE_CLASS)
-			/* Overload + operator :
-			 * Date + int
+			/* Overloaded various operator functions
 			 */
 			Date operator+(int n) const;
+			Date operator+=(int n);
+			int operator==(Date& dt) const;
+			int operator<(Date& dt)  const;
+			int operator<=(Date& dt) const;
+			int operator!=(Date& dt) const;
 		#else
 			friend Date operator+(int n, Date& dt);
 			friend Date operator+(Date& dt, int n);
@@ -41,6 +45,7 @@
 		 * int + Date
 		 */
 		Date operator+(int n, Date& dt);
+		Date operator+=(int n, Date& dt);
 	#else
 		Date operator+(int n, Date& dt);
 		Date operator+(Date& dt, int n);

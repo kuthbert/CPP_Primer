@@ -13,4 +13,8 @@
 
 	void TestCase4_OperatorPlusOverload(void);
 
+	void TestCase4_OperatorLessthanOrEqualOverload(void);
+
+	void TestCase4_OperatorPlusEqualOverload(void);
+
 #endif	/*  TEST_DATE_H  */

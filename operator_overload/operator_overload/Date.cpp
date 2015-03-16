@@ -56,6 +56,68 @@ void Date::display(void) const
 	{
 		return (dt + n);
 	}
+
+	int Date::operator==(Date& dt) const
+	/* Overloaded equality operator definition.
+	 */
+	{
+		return ((this->yr == dt.yr) && 
+				(this->mo == dt.mo) && 
+				(this->da == dt.da));
+	}
+
+	int Date::operator<(Date& dt) const
+	/* Overloaded less-than operator definition.
+	 */
+	{
+		if (this->yr == dt.yr)
+		{
+			if (this->mo == dt.mo)
+			{
+				return ((this->da) < (dt.da));
+			}
+			else
+			{
+				return ((this->mo) < (dt.mo));
+			}
+		}
+		else
+		{
+			return ((this->yr) < (dt.yr));
+		}
+	}
+
+	int Date::operator<=(Date& dt) const
+	{
+		return	(
+					((this->yr)<=(dt.yr))?
+					(
+						((this->mo)<=(dt.mo))?
+						(
+							((this->da)<=(dt.da))?
+							(1):
+							(-1)
+						):
+						(-1)
+					):
+					(-1)
+				);
+	}
+
+	int Date::operator!=(Date& dt) const
+	{
+		return !(*this == dt);
+	}
+
+	Date Date::operator+=(int n)
+	{
+		*this = *this + n;
+		return *this;
+	}
+	Date operator+=(int n, Date& dt)
+	{
+		return dt + n;
+	}
 #else
 	Date operator+(int n, Date& dt)
 	{

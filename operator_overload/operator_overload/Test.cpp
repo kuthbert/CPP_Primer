@@ -14,4 +14,8 @@ void Perform_General_Test_Cases(void)
 {
 	/* Insert your test cases here */
 	Perform_TestCase4_OperatorPlusOverload();
+
+	Perform_TestCase4_OperatorLessthanOrEqualOverload();
+
+	Perform_TestCase4_OperatorPlusEqualOverload();
 }

@@ -12,5 +12,7 @@
 #define OPERATOR_OVERLOAD_H
 
 	void Perform_TestCase4_OperatorPlusOverload(void);
+	void Perform_TestCase4_OperatorLessthanOrEqualOverload(void);
+	void Perform_TestCase4_OperatorPlusEqualOverload(void);
 
 #endif	/*  OPERATOR_OVERLOAD_H  */
