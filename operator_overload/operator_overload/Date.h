@@ -22,6 +22,7 @@
 		static int dys[];
 	public:
 		Date(int y=0, int m=0, int d=0);
+		Date(const Date& dt);
 		~Date(void);
 		void display(void) const;
 
@@ -29,11 +30,19 @@
 			/* Overloaded various operator functions
 			 */
 			Date operator+(int n) const;
+			Date operator-(int n);
 			Date operator+=(int n);
+			Date operator-=(int n);
+			Date operator=(const Date& dt);
 			int operator==(Date& dt) const;
 			int operator<(Date& dt)  const;
 			int operator<=(Date& dt) const;
 			int operator!=(Date& dt) const;
+			
+			Date operator++();
+			Date operator++(int);
+			Date operator--();
+			Date operator--(int);
 		#else
 			friend Date operator+(int n, Date& dt);
 			friend Date operator+(Date& dt, int n);

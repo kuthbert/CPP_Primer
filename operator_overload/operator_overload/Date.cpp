@@ -21,6 +21,12 @@ Date::Date(int y, int m, int d)
 	da = d;
 }
 
+Date::Date(const Date& dt)
+{
+	yr = dt.yr;
+	mo = dt.mo;
+	da = dt.da;
+}
 
 Date::~Date(void)
 {
@@ -52,6 +58,11 @@ void Date::display(void) const
 		return dt;
 	}
 
+	Date Date::operator-(int n)
+	{
+		return *this + (-n);
+	}
+
 	Date operator+(int n, Date& dt)
 	{
 		return (dt + n);
@@ -64,6 +75,17 @@ void Date::display(void) const
 		return ((this->yr == dt.yr) && 
 				(this->mo == dt.mo) && 
 				(this->da == dt.da));
+	}
+
+	Date Date::operator=(const Date& dt)
+	{
+		if (this != NULL)
+		{
+			this->yr = dt.yr;
+			this->mo = dt.mo;
+			this->da = dt.da;
+		}
+		return *this;
 	}
 
 	int Date::operator<(Date& dt) const
@@ -114,9 +136,41 @@ void Date::display(void) const
 		*this = *this + n;
 		return *this;
 	}
+
+	Date Date::operator-=(int n)
+	{
+		return *this - n;
+	}
+
 	Date operator+=(int n, Date& dt)
 	{
 		return dt + n;
+	}
+
+	Date Date::operator++()		// prefix ++ operator
+	{
+		*this = *this + 1;
+		return *this;
+	}
+
+	Date Date::operator++(int)	// postfix ++ operator
+	{
+		Date dt = *this;
+		*this = *this + 1;
+		return dt;
+	}
+
+	Date Date::operator--()	// --object
+	{
+		*this = *this - 1;
+		return *this;
+	}
+
+	Date Date::operator--(int)	// object--
+	{
+		Date dt = *this;
+		*this = *this - 1;
+		return dt;
 	}
 #else
 	Date operator+(int n, Date& dt)
