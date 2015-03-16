@@ -20,29 +20,29 @@
 		int mo;
 		int da;
 		static int dys[];
-	public:
-		Date(int y=0, int m=0, int d=0);
-		Date(const Date& dt);
+	public:										// Usage : 
+		Date(int y=0, int m=0, int d=0);		// object()  or  object or object(y, m, d)
+		Date(const Date& dt);					// object1(object2)
 		~Date(void);
 		void display(void) const;
 
 		#if !defined (OPERATOR_OVERLOAD_OUTSIDE_CLASS)
 			/* Overloaded various operator functions
 			 */
-			Date operator+(int n) const;
-			Date operator-(int n);
-			Date operator+=(int n);
-			Date operator-=(int n);
-			Date operator=(const Date& dt);
-			int operator==(Date& dt) const;
-			int operator<(Date& dt)  const;
-			int operator<=(Date& dt) const;
-			int operator!=(Date& dt) const;
+			Date operator+(int n) const;		// object1 +  n
+			Date operator-(int n);				// object1 -  n
+			Date operator+=(int n);				// object1 += n
+			Date operator-=(int n);				// object1 -= n
+			Date operator=(const Date& dt);		// object1 = object2
+			int operator==(Date& dt) const;		// object1 == object2
+			int operator<(Date& dt)  const;		// object1 <  object2
+			int operator<=(Date& dt) const;		// object1 <= object2
+			int operator!=(Date& dt) const;		// object1 != object2
 			
-			Date operator++();
-			Date operator++(int);
-			Date operator--();
-			Date operator--(int);
+			Date operator++();					// ++object
+			Date operator++(int);				// object++
+			Date operator--();					// --object
+			Date operator--(int);				// object--
 		#else
 			friend Date operator+(int n, Date& dt);
 			friend Date operator+(Date& dt, int n);
@@ -53,8 +53,8 @@
 		/* Overloaded operator:
 		 * int + Date
 		 */
-		Date operator+(int n, Date& dt);
-		Date operator+=(int n, Date& dt);
+		Date operator+(int n, Date& dt);		// n + object1
+		Date operator+=(int n, Date& dt);		// object1 = n + object2
 	#else
 		Date operator+(int n, Date& dt);
 		Date operator+(Date& dt, int n);
