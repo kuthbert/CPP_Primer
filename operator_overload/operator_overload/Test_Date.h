@@ -19,4 +19,5 @@
 
 	void TestCase4_OperatorPrefixPostfixPlusPlusOverload(void);
 
+	void TestCase4_OperatorSmartPointerOverload(void);
 #endif	/*  TEST_DATE_H  */

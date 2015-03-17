@@ -87,3 +87,14 @@ void TestCase4_OperatorPrefixPostfixPlusPlusOverload(void)
 	newDate.display();
 #endif	/* OPERATOR_OVERLOAD_OUTSIDE_CLASS */
 }
+
+void TestCase4_OperatorSmartPointerOverload(void)
+{
+	DatePtr pDate;	// Define a Date-Pointer with nothing in it
+	pDate->display();	// use it to call Date::display() function
+
+	Date dt(2015, 3, 16);
+	pDate = &dt;	// Put address of Date object in pointer
+	pDate->display();	// Display date through the pointer.
+	return;
+}

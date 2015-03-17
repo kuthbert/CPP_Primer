@@ -60,4 +60,15 @@
 		Date operator+(Date& dt, int n);
 	#endif	/* OPERATOR_OVERLOAD_OUTSIDE_CLASS */
 
+	class DatePtr
+	{
+	private:
+		Date *dp;
+	public:
+		DatePtr(Date *d = 0);
+		~DatePtr(void);
+
+		Date* operator->();
+	};
+
 #endif	/*  DATE_H  */

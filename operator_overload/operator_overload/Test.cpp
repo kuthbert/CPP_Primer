@@ -19,5 +19,11 @@ void Perform_General_Test_Cases(void)
 
 	// Perform_TestCase4_OperatorPlusEqualOverload();
 
-	Perform_TestCase4_OperatorPrefixPostfixPlusPlusOverload();
+	// Perform_TestCase4_OperatorPrefixPostfixPlusPlusOverload();
+
+	// Perform_TestCase4_OperatorSingleMinusOverload();
+
+	// Perform_TestCase4_OperatorIndexOverload();
+
+	Perform_TestCase4_OperatorSmartPointerOverload();
 }

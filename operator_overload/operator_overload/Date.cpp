@@ -195,3 +195,27 @@ void Date::display(void) const
 		return (n+dt);
 	}
 #endif	/* OPERATOR_OVERLOAD_OUTSIDE_CLASS */
+
+
+DatePtr::DatePtr(Date *d)
+{
+	dp = d;
+}
+
+DatePtr::~DatePtr(void)
+{
+	/* empty */
+}
+
+Date* DatePtr::operator->()
+{
+	static Date nullDate(0, 0, 0);
+	if (dp == 0)
+	{
+		return &nullDate;
+	}
+	else
+	{
+		return dp;
+	}
+}
