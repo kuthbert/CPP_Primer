@@ -19,7 +19,7 @@
 		int day;
 	protected:
 		static const int dys[];
-		long int ndays;
+		long int ndays;		// Total days inclusive since Jan. 1, 0001
 	public:
 		Date(int yr=0, int mo=0, int da=0);
 		Date(const Date& dt);
@@ -30,20 +30,20 @@
 		/* Overload arithmetic operators */
 		Date	operator+(int n) const;
 		Date	operator-(int n) const;
-		Date&	operator+=(int n);
-		Date&	operator-=(int n);
-		Date&	operator++(void);
+		Date	operator+=(int n);
+		Date	operator-=(int n);
+		Date	operator++(void);
 		Date	operator++(int);
-		Date&	operator--(void);
+		Date	operator--(void);
 		Date	operator--(int);
 		long int operator-(const Date& dt) const;
 		/* Overload relational operators */
-		bool operator==(const Date& dt) const;
-		bool operator!=(const Date& dt) const;
-		bool operator< (const Date& dt) const;
-		bool operator> (const Date& dt) const;
-		bool operator<=(const Date& dt) const;
-		bool operator>=(const Date& dt) const;
+		bool operator==(const Date& dt);
+		bool operator!=(const Date& dt);
+		bool operator< (const Date& dt);
+		bool operator> (const Date& dt);
+		bool operator<=(const Date& dt);
+		bool operator>=(const Date& dt);
 
 		/* Getter and setter functions */
 		void SetDate(int yr, int mo, int da);
@@ -56,7 +56,7 @@
 		int GetYear(void) const;
 
 		/* Display method */
-		//virtual void Display() const;
+		virtual void Display(void) const;
 
 		bool IsLeapYear(int yr) const;
 		bool IsLeapYear(void) const;
