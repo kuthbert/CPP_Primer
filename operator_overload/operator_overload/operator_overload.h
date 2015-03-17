@@ -16,4 +16,9 @@
 	void Perform_TestCase4_OperatorPlusEqualOverload(void);
 	void Perform_TestCase4_OperatorPrefixPostfixPlusPlusOverload(void);
 
+	void Perform_TestCase4_OperatorSingleMinusOverload(void);
+	void Perform_TestCase4_OperatorIndexOverload(void);
+
+	void Perform_TestCase4_OperatorSmartPointerOverload(void);
+
 #endif	/*  OPERATOR_OVERLOAD_H  */
