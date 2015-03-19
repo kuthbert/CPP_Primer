@@ -17,9 +17,9 @@
 		int year;
 		int month;
 		int day;
+		static int dys[];
 	protected:
-		static const int dys[];
-		long int ndays;		// Total days inclusive since Jan. 1, 0001
+
 	public:
 		Date(int yr=0, int mo=0, int da=0);
 		Date(const Date& dt);
@@ -32,8 +32,8 @@
 		Date	operator-(int n) const;
 		Date	operator+=(int n);
 		Date	operator-=(int n);
-		Date	operator++(void);
-		Date	operator++(int);
+		Date	operator++(void);		// Prefix ++ : ++object
+		Date	operator++(int);		// Postfix ++: object++
 		Date	operator--(void);
 		Date	operator--(int);
 		long int operator-(const Date& dt) const;
@@ -56,7 +56,8 @@
 		int GetYear(void) const;
 
 		/* Display method */
-		virtual void Display(void) const;
+		// virtual void Display(void) const;
+		void Print(void) const;
 
 		bool IsLeapYear(int yr) const;
 		bool IsLeapYear(void) const;
