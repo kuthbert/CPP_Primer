@@ -12,11 +12,13 @@
 
 #include <iostream>
 #include "Test.h"
+#include "Test_classes.h"
 
 int main(int argc, char *argv[])
 {
 	Execute_General_Test_Cases();
 
+	Perform_UnitTestCases();
 /******************************/
 	std::exit(0);
 }

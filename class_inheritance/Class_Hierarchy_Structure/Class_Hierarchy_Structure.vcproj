@@ -173,6 +173,10 @@
 				RelativePath=".\Test.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\Test_classes.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="&#22836;&#25991;&#20214;"
@@ -185,6 +189,10 @@
 			</File>
 			<File
 				RelativePath=".\Test.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Test_classes.h"
 				>
 			</File>
 		</Filter>
@@ -203,6 +211,14 @@
 			</File>
 			<File
 				RelativePath=".\base\Date.h"
+				>
+			</File>
+			<File
+				RelativePath=".\base\Test_Date.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\base\Test_Date.h"
 				>
 			</File>
 		</Filter>
