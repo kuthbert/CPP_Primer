@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class_Hierarchy_Structure", "Class_Hierarchy_Structure\Class_Hierarchy_Structure.vcproj", "{737138F4-87B8-49B3-9DF0-DA961D73C9AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CCHSD_and_OOD", "CCHSD_and_OOD\CCHSD_and_OOD.vcproj", "{97DDEB05-EE87-44B6-AA7C-635F7415E8CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{737138F4-87B8-49B3-9DF0-DA961D73C9AC}.Debug|Win32.Build.0 = Debug|Win32
 		{737138F4-87B8-49B3-9DF0-DA961D73C9AC}.Release|Win32.ActiveCfg = Release|Win32
 		{737138F4-87B8-49B3-9DF0-DA961D73C9AC}.Release|Win32.Build.0 = Release|Win32
+		{97DDEB05-EE87-44B6-AA7C-635F7415E8CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97DDEB05-EE87-44B6-AA7C-635F7415E8CD}.Debug|Win32.Build.0 = Debug|Win32
+		{97DDEB05-EE87-44B6-AA7C-635F7415E8CD}.Release|Win32.ActiveCfg = Release|Win32
+		{97DDEB05-EE87-44B6-AA7C-635F7415E8CD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
