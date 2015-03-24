@@ -13,12 +13,18 @@
 #include <iostream>
 #include "Test.h"
 #include "Test_classes.h"
+#include "class_inheritance.h"
+
+
+
 
 int main(int argc, char *argv[])
 {
 	Execute_General_Test_Cases();
 
 	Perform_UnitTestCases();
+
+	Test_Class_Inheritance();
 /******************************/
 	std::exit(0);
 }

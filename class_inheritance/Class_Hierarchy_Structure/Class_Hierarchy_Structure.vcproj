@@ -225,6 +225,46 @@
 		<Filter
 			Name="derived"
 			>
+			<File
+				RelativePath=".\derived\CustomDate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\derived\CustomDate.h"
+				>
+			</File>
+			<File
+				RelativePath=".\derived\SpecialCustomDate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\derived\SpecialCustomDate.h"
+				>
+			</File>
+			<File
+				RelativePath=".\derived\SpecialDate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\derived\SpecialDate.h"
+				>
+			</File>
+			<File
+				RelativePath=".\derived\Test_SpecialCustomDate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\derived\Test_SpecialCustomDate.h"
+				>
+			</File>
+			<File
+				RelativePath=".\derived\Test_SpecialDate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\derived\Test_SpecialDate.h"
+				>
+			</File>
 		</Filter>
 	</Files>
 	<Globals>
