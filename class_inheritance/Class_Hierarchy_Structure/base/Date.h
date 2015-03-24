@@ -16,10 +16,10 @@
 	private:
 		int year;
 		int month;
-		int day;
-		static int dys[];
+		int day;		
 	protected:
-
+		static const int dys[];
+		long int ndays;		// days inclusive since Jan. 1, 1 (1/1/1 == 1)
 	public:
 		Date(int yr=0, int mo=0, int da=0);
 		Date(const Date& dt);
@@ -56,13 +56,14 @@
 		int GetYear(void) const;
 
 		/* Display method */
-		// virtual void Display(void) const;
+		virtual void Display(void) const;
 		void Print(void) const;
 
 		bool IsLeapYear(int yr) const;
 		bool IsLeapYear(void) const;
 	};
 
-	inline Date operator+(int n, const Date& dt);
+	Date operator+(int n, const Date& dt);
+	long ComputeTotalDays(int year, int month, int day);
 
 #endif	/*  DATE_H  */
