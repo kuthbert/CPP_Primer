@@ -13,7 +13,6 @@
 *.lo
 *.o
 *.obj
-*.cd
 
 # Precompiled Headers
 *.gch

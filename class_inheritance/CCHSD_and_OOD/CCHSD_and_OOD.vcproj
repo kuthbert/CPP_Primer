@@ -162,7 +162,63 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\base_class_non_virtual_destructor.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Contractor.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Date.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Employee.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\HR_Management.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\JobShopper_and_Independent.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Main.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Money.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\PDate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Person.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SalariedEmployee.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SSN.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Test_PDate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Unit_Test.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\WagedEmployee.cpp"
 				>
 			</File>
 		</Filter>
@@ -171,6 +227,62 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\base_class_non_virtual_destructor.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Contractor.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Date.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Employee.h"
+				>
+			</File>
+			<File
+				RelativePath=".\HR_Management.h"
+				>
+			</File>
+			<File
+				RelativePath=".\JobShopper_and_Independent.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Money.h"
+				>
+			</File>
+			<File
+				RelativePath=".\PDate.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Person.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SalariedEmployee.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SSN.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Test_PDate.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Unit_Test.h"
+				>
+			</File>
+			<File
+				RelativePath=".\WagedEmployee.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="&#36164;&#28304;&#25991;&#20214;"
@@ -178,6 +290,10 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
+		<File
+			RelativePath=".\HR_Management_Classes_Relationship_Diagram.cd"
+			>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>
