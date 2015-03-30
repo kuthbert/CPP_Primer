@@ -51,7 +51,6 @@ Date::Date(int yr, int mo, int da)
 		year = 0;
 		month = 0;
 		day = 0;
-		return;
 	}
 	ndays = ComputeTotalDays(yr, mo, da);
 	year = yr;
@@ -686,7 +685,7 @@ long ComputeTotalDays(int year, int month, int day)
 			lTotal += 30;
 			break;
 		case 12:	// Dec.
-			// lTotal += 31;
+			lTotal += 31;
 			break;
 		default:
 			break;
