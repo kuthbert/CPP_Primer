@@ -14,10 +14,14 @@
 
 
 #include <iostream>
+#include "Unit_Test.h"
+#include "HR_Management.h"
 
 int main(int argc, char *argv[])
 {
+	Execute_Unit_Test_Cases();
 
+	HR_Management_Business_Logic();
 
 /******************************/
 	std::exit(0);
