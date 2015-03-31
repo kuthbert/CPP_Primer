@@ -174,6 +174,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Date.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\DisplayObject.cpp"
 				>
 			</File>
@@ -190,11 +194,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Money.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\PDate.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Pencils.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\Property.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Test.cpp"
 				>
 			</File>
 			<File
@@ -220,6 +236,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Date.h"
+				>
+			</File>
+			<File
 				RelativePath=".\DisplayObject.h"
 				>
 			</File>
@@ -232,11 +252,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Money.h"
+				>
+			</File>
+			<File
+				RelativePath=".\PDate.h"
+				>
+			</File>
+			<File
 				RelativePath=".\Pencils.h"
 				>
 			</File>
 			<File
 				RelativePath=".\Property.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Test.h"
 				>
 			</File>
 			<File
@@ -250,6 +282,10 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
+		<File
+			RelativePath=".\MI_Class_Relationship_Diagram.cd"
+			>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>
