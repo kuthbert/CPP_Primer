@@ -12,11 +12,12 @@
 
 
 #include <iostream>
+#include "Test.h"
 
 
 int main(int argc, char *argv[])
 {
-
+	Execute_Test_Cases();
 
 /******************************/
 	std::cout<<std::endl;
