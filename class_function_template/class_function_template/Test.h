@@ -1,13 +1,20 @@
-//
-//  Test.h
-//  class_function_template
-//
-//  Created by Frédérick Hsu on 15/4/12.
-//  Copyright (c) 2015年 Frédérick Hsu. All rights reserved.
-//
-
-#ifndef class_function_template_Test_h
-#define class_function_template_Test_h
+/**********************************************************************************************
+ * File name        : Test.h
+ * Description      : Execute all test cases here for current project.
+ * Creator          : Frederick Hsu
+ * Creation date    : Sun.  April 12, 2015
+ * Copyright(C)     2015    All rights reserved.
+ *
+ **********************************************************************************************/
 
 
-#endif
+#ifndef TEST_H
+#define TEST_H
+
+    void Execute_General_Test_Cases(void);
+
+    void Execute_TestCase4_MyClassTemp(void);
+
+    void Execute_TestCase4_MyClassTemplate(void);
+
+#endif  /*  TEST_H  */

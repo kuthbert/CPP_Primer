@@ -21,3 +21,17 @@ void TestCase4_MyClassTemp(void)
     MyTemp<int, double> mt(a, b);
     mt.display();
 }
+
+void TestCase4_MyClassTemplate(void)
+{
+    int x = 123;
+    double y = 456.789;
+    
+    MyTemplate<int, double> mt1(x, y);
+    MyTemplate<int, double, 100> mt2(x, y);
+    
+    mt1.display();
+    mt2.display();
+    
+    return;
+}

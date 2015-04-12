@@ -12,5 +12,6 @@
 #define TEST_MYTEMP_H
 
     void TestCase4_MyClassTemp(void);
+    void TestCase4_MyClassTemplate(void);
 
 #endif  /*  TEST_MYTEMP_H  */
