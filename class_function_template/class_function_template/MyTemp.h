@@ -46,4 +46,39 @@
         std::cout<<t1_obj<<",    "<<t2_obj<<std::endl;
     }
 
+/**********************************************************************************************/
+    
+    template <class T1, class T2, int num=10>
+    class MyTemplate
+    {
+    private:
+        T1 t1;
+        T2 t2;
+    protected:
+    public:
+        MyTemplate(T1 obj_t1, T2 obj_t2);
+        ~MyTemplate(void);
+        
+        void display(void);
+    };
+
+    template <class T1, class T2, int num>
+    MyTemplate<T1, T2, num>::MyTemplate(T1 obj_t1, T2 obj_t2)
+    {
+        t1 = obj_t1 + num;
+        t2 = obj_t2 + num;
+    }
+
+    template <class T1, class T2, int num>
+    MyTemplate<T1, T2, num>::~MyTemplate(void)
+    {
+        /* empty */
+    }
+
+    template <class T1, class T2, int num>
+    void MyTemplate<T1, T2, num>::display(void)
+    {
+        std::cout<<t1<<",    "<<t2<<std::endl;
+    }
+
 #endif  /*  MYTEMP_H  */
