@@ -10,6 +10,7 @@
 		7B856B2D1ADA916E00B72DE9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B856B2C1ADA916E00B72DE9 /* main.cpp */; };
 		7B856B301ADAAFA800B72DE9 /* Test_MyTemp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B856B2F1ADAAFA800B72DE9 /* Test_MyTemp.cpp */; };
 		7B856B341ADAB8CC00B72DE9 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B856B331ADAB8CC00B72DE9 /* Test.cpp */; };
+		7BF494FD1ADACD9D006118F6 /* Test_BArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BF494FC1ADACD9D006118F6 /* Test_BArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,9 @@
 		7B856B311ADAB7BB00B72DE9 /* Test_MyTemp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_MyTemp.h; sourceTree = "<group>"; };
 		7B856B321ADAB8BA00B72DE9 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		7B856B331ADAB8CC00B72DE9 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		7BF494FB1ADACB9D006118F6 /* barray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = barray.h; sourceTree = "<group>"; };
+		7BF494FC1ADACD9D006118F6 /* Test_BArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test_BArray.cpp; sourceTree = "<group>"; };
+		7BF494FE1ADACDAF006118F6 /* Test_BArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_BArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,9 @@
 				7B856B311ADAB7BB00B72DE9 /* Test_MyTemp.h */,
 				7B856B321ADAB8BA00B72DE9 /* Test.h */,
 				7B856B331ADAB8CC00B72DE9 /* Test.cpp */,
+				7BF494FB1ADACB9D006118F6 /* barray.h */,
+				7BF494FC1ADACD9D006118F6 /* Test_BArray.cpp */,
+				7BF494FE1ADACDAF006118F6 /* Test_BArray.h */,
 			);
 			path = class_function_template;
 			sourceTree = "<group>";
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF494FD1ADACD9D006118F6 /* Test_BArray.cpp in Sources */,
 				7B856B341ADAB8CC00B72DE9 /* Test.cpp in Sources */,
 				7B856B2D1ADA916E00B72DE9 /* main.cpp in Sources */,
 				7B856B301ADAAFA800B72DE9 /* Test_MyTemp.cpp in Sources */,
@@ -249,6 +257,7 @@
 				7B856B2B1ADA8FA600B72DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
