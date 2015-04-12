@@ -14,10 +14,11 @@
 
 
 #include <iostream>
+#include "Test.h"
 
 int main(int argc, const char * argv[])
 {
-
+    Execute_General_Test_Cases();
 
 /**************************************/
     std::cout<<std::endl;
