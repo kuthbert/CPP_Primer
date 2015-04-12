@@ -1,0 +1,8 @@
+# The following file types and individual file will be ignored tracking by the git :
+*.DS_Store
+*.o
+*.obj
+*.exe
+*.xcuserdatad
+*.xcworkspace
+
