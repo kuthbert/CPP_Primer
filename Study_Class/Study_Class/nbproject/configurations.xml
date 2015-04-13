@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1" displayName="Classes" projectFiles="true" kind="ROOT">
+      <itemPath>Classes/Class_Objects.cpp</itemPath>
+      <itemPath>Classes/Class_Objects.h</itemPath>
+      <itemPath>Classes/ConstRef.cpp</itemPath>
+      <itemPath>Classes/ConstRef.h</itemPath>
+      <itemPath>Classes/Record.cpp</itemPath>
+      <itemPath>Classes/Record.h</itemPath>
+      <itemPath>Classes/Sales_item.cpp</itemPath>
+      <itemPath>Classes/Sales_item.h</itemPath>
+      <itemPath>Classes/Screen.cpp</itemPath>
+      <itemPath>Classes/Screen.h</itemPath>
+      <itemPath>Classes/Test_Classes.cpp</itemPath>
+      <itemPath>Classes/Test_Classes.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
+      <itemPath>Test.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+      <itemPath>Study_Class_Main.cpp</itemPath>
+      <itemPath>Test.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles" displayName="资源文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="测试文件"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Classes/Class_Objects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Class_Objects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/ConstRef.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/ConstRef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/Record.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Record.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/Sales_item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Sales_item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/Screen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Screen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/Test_Classes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Test_Classes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Study_Class_Main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Test.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Classes/Class_Objects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Class_Objects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/ConstRef.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/ConstRef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/Record.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Record.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/Sales_item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Sales_item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/Screen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Screen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/Test_Classes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Test_Classes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Study_Class_Main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Test.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

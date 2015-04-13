@@ -6,3 +6,48 @@
 *.xcuserdatad
 *.xcworkspace
 *.project
+
+
+*.xcuserstate
+*.inc
+*.htm
+*.idb
+*.manifest
+*.dep
+*.d
+*/private/*.*
+*.xml
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+/.project
+/Study_Class/Study_Class/build/
+/Study_Class/Study_Class/dist/
