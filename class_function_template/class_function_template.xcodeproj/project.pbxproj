@@ -10,6 +10,8 @@
 		7B856B2D1ADA916E00B72DE9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B856B2C1ADA916E00B72DE9 /* main.cpp */; };
 		7B856B301ADAAFA800B72DE9 /* Test_MyTemp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B856B2F1ADAAFA800B72DE9 /* Test_MyTemp.cpp */; };
 		7B856B341ADAB8CC00B72DE9 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B856B331ADAB8CC00B72DE9 /* Test.cpp */; };
+		7BD8BED01ADD7A3000F50E54 /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8BECE1ADD7A3000F50E54 /* Date.cpp */; };
+		7BD8BED31ADD7A8A00F50E54 /* PDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8BED11ADD7A8A00F50E54 /* PDate.cpp */; };
 		7BF494FD1ADACD9D006118F6 /* Test_BArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BF494FC1ADACD9D006118F6 /* Test_BArray.cpp */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,10 @@
 		7B856B311ADAB7BB00B72DE9 /* Test_MyTemp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_MyTemp.h; sourceTree = "<group>"; };
 		7B856B321ADAB8BA00B72DE9 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		7B856B331ADAB8CC00B72DE9 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		7BD8BECE1ADD7A3000F50E54 /* Date.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Date.cpp; sourceTree = "<group>"; };
+		7BD8BECF1ADD7A3000F50E54 /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		7BD8BED11ADD7A8A00F50E54 /* PDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PDate.cpp; sourceTree = "<group>"; };
+		7BD8BED21ADD7A8A00F50E54 /* PDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDate.h; sourceTree = "<group>"; };
 		7BF494FB1ADACB9D006118F6 /* barray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = barray.h; sourceTree = "<group>"; };
 		7BF494FC1ADACD9D006118F6 /* Test_BArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test_BArray.cpp; sourceTree = "<group>"; };
 		7BF494FE1ADACDAF006118F6 /* Test_BArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_BArray.h; sourceTree = "<group>"; };
@@ -77,6 +83,10 @@
 				7BF494FB1ADACB9D006118F6 /* barray.h */,
 				7BF494FC1ADACD9D006118F6 /* Test_BArray.cpp */,
 				7BF494FE1ADACDAF006118F6 /* Test_BArray.h */,
+				7BD8BECE1ADD7A3000F50E54 /* Date.cpp */,
+				7BD8BECF1ADD7A3000F50E54 /* Date.h */,
+				7BD8BED11ADD7A8A00F50E54 /* PDate.cpp */,
+				7BD8BED21ADD7A8A00F50E54 /* PDate.h */,
 			);
 			path = class_function_template;
 			sourceTree = "<group>";
@@ -141,6 +151,8 @@
 				7B856B341ADAB8CC00B72DE9 /* Test.cpp in Sources */,
 				7B856B2D1ADA916E00B72DE9 /* main.cpp in Sources */,
 				7B856B301ADAAFA800B72DE9 /* Test_MyTemp.cpp in Sources */,
+				7BD8BED31ADD7A8A00F50E54 /* PDate.cpp in Sources */,
+				7BD8BED01ADD7A3000F50E54 /* Date.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
