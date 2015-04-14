@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_friend_accessibility", "Test_friend_accessibility\Test_friend_accessibility.vcproj", "{D527DB2C-555C-4D9C-B00D-110990CECFDE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "destructor_operator", "destructor_operator\destructor_operator.vcproj", "{39C1E749-3DA2-4B77-9396-6A0569A9D1C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "setter_getter_conversion_functions", "setter_getter_conversion_functions\setter_getter_conversion_functions.vcproj", "{1EA6355E-8000-4F35-8773-C9A2295BDC30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D527DB2C-555C-4D9C-B00D-110990CECFDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D527DB2C-555C-4D9C-B00D-110990CECFDE}.Debug|Win32.Build.0 = Debug|Win32
+		{D527DB2C-555C-4D9C-B00D-110990CECFDE}.Release|Win32.ActiveCfg = Release|Win32
+		{D527DB2C-555C-4D9C-B00D-110990CECFDE}.Release|Win32.Build.0 = Release|Win32
+		{39C1E749-3DA2-4B77-9396-6A0569A9D1C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{39C1E749-3DA2-4B77-9396-6A0569A9D1C8}.Debug|Win32.Build.0 = Debug|Win32
+		{39C1E749-3DA2-4B77-9396-6A0569A9D1C8}.Release|Win32.ActiveCfg = Release|Win32
+		{39C1E749-3DA2-4B77-9396-6A0569A9D1C8}.Release|Win32.Build.0 = Release|Win32
+		{1EA6355E-8000-4F35-8773-C9A2295BDC30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1EA6355E-8000-4F35-8773-C9A2295BDC30}.Debug|Win32.Build.0 = Debug|Win32
+		{1EA6355E-8000-4F35-8773-C9A2295BDC30}.Release|Win32.ActiveCfg = Release|Win32
+		{1EA6355E-8000-4F35-8773-C9A2295BDC30}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
