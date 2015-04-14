@@ -10,12 +10,15 @@
 
 #include "Test.h"
 #include "Test_MyTemp.h"
+#include "Test_BArray.h"
 
 void Execute_General_Test_Cases(void)
 {
     Execute_TestCase4_MyClassTemp();
     
     Execute_TestCase4_MyClassTemplate();
+    
+    Execute_TestCase4_BoundedArrayTemplate();
 }
 
 void Execute_TestCase4_MyClassTemp(void)
@@ -26,4 +29,9 @@ void Execute_TestCase4_MyClassTemp(void)
 void Execute_TestCase4_MyClassTemplate(void)
 {
     TestCase4_MyClassTemplate();
+}
+
+void Execute_TestCase4_BoundedArrayTemplate(void)
+{
+    TestCase4_BoundedArrayTemplate();
 }

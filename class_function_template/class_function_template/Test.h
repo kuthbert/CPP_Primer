@@ -17,4 +17,6 @@
 
     void Execute_TestCase4_MyClassTemplate(void);
 
+    void Execute_TestCase4_BoundedArrayTemplate(void);
+
 #endif  /*  TEST_H  */
