@@ -41,7 +41,7 @@ void TestCase4_BoundedArrayTemplate(void)
      * outside the range of the subscript.
      */
     Date dt6(2015, 4, 15);
-    dateArray[5] = dt6;     // Template's assertion aborts.
+    // dateArray[5] = dt6;     // Template's assertion aborts.
     
     return;
 }
