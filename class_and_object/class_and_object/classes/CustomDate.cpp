@@ -27,6 +27,9 @@ CustomDate::~CustomDate(void)
 {
 }
 
+
+
+
 void CustomDate::display(void) const
 {
 	std::cout<<yr<<'-'<<da<<std::endl;
